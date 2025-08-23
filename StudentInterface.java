@@ -1,0 +1,4 @@
+interface StudentService{
+  Student addStudent();
+}
+  
