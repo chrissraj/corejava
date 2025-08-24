@@ -13,6 +13,7 @@ public class Streams {
         System.out.println(numbers.stream().map(t->t*2).toList());
 
         System.out.println(numbers.stream().anyMatch(x->x%2==1));
+        System.out.println(numbers.stream().allMatch(x->x%2==0));
     }
     
 }
