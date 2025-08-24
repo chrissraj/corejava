@@ -5,3 +5,4 @@ interface StudentService{
   void deleteStudent();
 }
   
+public interface StudentInterface extends StudentService{}
