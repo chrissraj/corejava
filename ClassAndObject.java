@@ -2,7 +2,7 @@ package Java;
 
 public class ClassAndObject {
     public static void main(String[] args) {
-        Student student = new Student(1, "Maximilan");
+        Student student = new Student(1L, "Maximilan");
         System.out.println(student.getId()+"--"+student.getName());
     }
 }
@@ -11,7 +11,7 @@ class Student{
     private Long id;
     private String name;
 
-    Student(Long id, String name){
+    public Student(Long id, String name){
         this.id = id;
         this.name = name;
     }
