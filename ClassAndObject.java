@@ -2,7 +2,7 @@ package Java;
 
 public class ClassAndObject {
     public static void main(String[] args) {
-        Student student = new Student(1, "Maximilan");
+        Student student = new Student(1L, "Maximilan");
         System.out.println(student.getId()+"--"+student.getName());
     }
 }
