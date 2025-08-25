@@ -25,6 +25,5 @@ class Mercedez extends Car{
     void print(){
         System.out.println("mercedes is cool");
         System.out.println("Added print method inside Mercedez");
-        int a=10/0;
     }
 }
