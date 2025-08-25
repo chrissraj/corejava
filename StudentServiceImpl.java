@@ -9,7 +9,6 @@ public class StudentServiceImpl implements StudentInterface{
     public void deleteStudent(){
 
         System.out.println("Student is deleted");
-        System.out.println("need to add more info");
         
     }
 
