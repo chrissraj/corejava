@@ -25,5 +25,6 @@ class Mercedez extends Car{
     void print(){
         System.out.println("mercedes is cool");
         System.out.println("Added print method inside Mercedez");
+        boolean a = true;
     }
 }
