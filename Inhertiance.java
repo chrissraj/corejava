@@ -21,4 +21,8 @@ class Mercedez extends Car{
     void name(){
         System.out.println("This is Mercedes");
     }
+
+    void print(){
+        System.out.println("mercedes");
+    }
 }
