@@ -10,7 +10,11 @@ public class PatternPrinting {
         }
        }
 
-       System.out.println("Pattern printing is cool");
+       System.out.println("Pattern printing is nice");
+
+       for(int j=0;j<10;j++){
+        System.out.println("great");
+       }
 
        
     }
