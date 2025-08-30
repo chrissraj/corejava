@@ -19,11 +19,11 @@ class Mercedez extends Car{
 
     @Override
     void name(){
-        System.out.println("This is Mercedes");
+       System.out.println("This is AMG Benz");
     }
 
     void print(){
-        System.out.println("mercedes is cool");
-        System.out.println("Added print method inside Mercedez");
+        System.out.println("mercedes is not better than BMW");
+        System.out.println("m50 vs e63");
     }
 }
