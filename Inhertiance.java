@@ -12,6 +12,7 @@ public class Inhertiance {
 class Car{
     void name(){
         System.out.println("This is car");
+        System.out.println("Car");
     }
 }
 
